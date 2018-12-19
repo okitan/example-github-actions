@@ -19,7 +19,7 @@ exports.config = {
         name: "chrome" // capabilitiy name (mainly use for screenshot)
       },
       "goog:chromeOptions": {
-        args: ["--ono-sandbox", "--disable-dev-shm-usage"]
+        args: ["--no-sandbox", "--disable-dev-shm-usage"]
       }
     }
     // {
