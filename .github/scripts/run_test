@@ -1,0 +1,7 @@
+#!/bin/bash
+
+set -ux
+
+cd /app
+
+LANG=ja_JP.utf8 npm test
