@@ -6,6 +6,6 @@ whoami
 
 cd /app
 
-/usr/bin/google-chrome
+# /usr/bin/google-chrome
 
 npm test
