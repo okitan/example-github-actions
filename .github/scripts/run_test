@@ -2,6 +2,8 @@
 
 set -ux
 
+sudo su
+
 whoami
 
 npm ci
