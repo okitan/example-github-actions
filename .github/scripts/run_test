@@ -2,11 +2,6 @@
 
 set -ux
 
-usermod -u $USER_ID -o -m user
-groupmod -g $GROUP_ID user
-
-ls -la
-
-npm ci
+sudo npm ci
 
 LANG=ja_JP.utf8 npm test
