@@ -19,7 +19,7 @@ exports.config = {
         name: "chrome" // capabilitiy name (mainly use for screenshot)
       },
       "goog:chromeOptions": {
-        // args: ['--headless'], // healess mode!
+        args: ["-disable-dev-shm-usage"]
       }
     }
     // {
