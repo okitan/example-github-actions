@@ -4,6 +4,6 @@ set -ux
 
 whoami
 
-cd /app
+npm ci
 
-LANG=ja_JP.utf8 HOME=/app npm test
+LANG=ja_JP.utf8 npm test
