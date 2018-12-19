@@ -6,7 +6,7 @@ describe("Google Test", function() {
 
     browser.waitForVisible('ul[role="listbox"]', 10000);
 
-    console.log(browser.getSource());
+    console.log(browser.getText("body"));
 
     browser.elements('ul[role="listbox"]').click("div=dena swet");
 
