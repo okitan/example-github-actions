@@ -5,4 +5,5 @@ workflow "workflow-test" {
 
 action "action-test" {
   uses = "./"
+  runs = "ls node_modules"
 }
