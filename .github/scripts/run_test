@@ -2,8 +2,6 @@
 
 set -eux
 
-whoami
-
-npm ci
+cd /app
 
 npm test
