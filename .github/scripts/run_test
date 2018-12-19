@@ -2,7 +2,9 @@
 
 set -ux
 
-sudo chown -R circleci:circleci $HOME
+usermod -u $USER_ID -o -m user
+groupmod -g $GROUP_ID user
+
 ls -la
 
 npm ci
