@@ -1,11 +1,9 @@
 #!/bin/bash
 
-set -eux
+set -ux
 
 whoami
 
 cd /app
 
-# HOME=/app /usr/bin/google-chrome
-
-HOME=/app npm test
+LANG=ja_JP.utf8 HOME=/app npm test
