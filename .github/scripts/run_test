@@ -2,6 +2,6 @@
 
 set -ux
 
-sudo npm ci
+cd /app
 
 LANG=ja_JP.utf8 npm test
