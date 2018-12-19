@@ -5,7 +5,7 @@ USER root
 RUN \
   apt-get install fonts-ipafont-gothic fonts-ipafont-mincho
 
-ENV APP_ROOT /app
+ENV APP_ROOT /github/workspace
 WORKDIR $APP_ROOT
 
 ADD package.json      $APP_ROOT

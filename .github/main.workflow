@@ -5,5 +5,4 @@ workflow "workflow-test" {
 
 action "action-test" {
   uses = "./"
-  runs = "pwd"
 }
