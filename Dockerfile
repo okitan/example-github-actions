@@ -19,7 +19,7 @@ RUN \
 COPY . $APP_ENV
 
 RUN \
-  chown -R circleci:circleci .
+  chown -R circleci:circleci $APP_ENV
 
 USER circleci
 
