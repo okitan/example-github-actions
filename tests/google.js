@@ -4,7 +4,7 @@ describe("Google Test", function() {
 
     browser.addValue('input[name="q"]', "DeNA SW");
 
-    browser.waitForVisible('ul[role="listbox"]', 3000);
+    browser.waitForVisible('ul[role="listbox"]', 10000);
 
     browser.elements('ul[role="listbox"]').click("div=dena swet");
 
