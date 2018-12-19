@@ -1,7 +1,9 @@
 from "circleci/node:latest-browsers"
 
+user ROOT
+
 RUN \
-  sudo apt-get install fonts-ipafont-gothic fonts-ipafont-mincho
+  apt-get install fonts-ipafont-gothic fonts-ipafont-mincho
 
 ENV APP_ENV /app
 WORKDIR $APP_ENV
