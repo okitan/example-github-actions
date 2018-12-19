@@ -4,6 +4,6 @@ workflow "workflow-test" {
 }
 
 action "action-test" {
-  uses = "./"
+  uses = "."
   runs = ".github/scripts/run_test"
 }
