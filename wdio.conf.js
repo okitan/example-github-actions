@@ -22,7 +22,7 @@ exports.config = {
         args: [
           "--no-sandbox",
           "--disable-dev-shm-usage",
-          "--profile-directory=."
+          "--user-data-dir=/app"
         ]
       }
     }
