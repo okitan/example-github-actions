@@ -2,9 +2,8 @@
 
 set -ux
 
-sudo su
-
-whoami
+sudo chown -R circleci:circleci $HOME
+ls -la
 
 npm ci
 
