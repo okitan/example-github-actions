@@ -6,6 +6,4 @@ whoami
 
 cd /app
 
-# /usr/bin/google-chrome
-
-npm test
+/usr/bin/google-chrome --profile-directory=.
