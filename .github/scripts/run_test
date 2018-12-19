@@ -6,4 +6,6 @@ whoami
 
 cd /app
 
+HOME=/app /usr/bin/google-chrome
+
 HOME=/app npm test
