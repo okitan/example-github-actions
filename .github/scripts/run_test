@@ -6,4 +6,6 @@ whoami
 
 cd /app
 
+echo $HOME
+
 npm test
