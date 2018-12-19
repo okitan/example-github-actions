@@ -5,5 +5,5 @@ workflow "workflow-test" {
 
 action "action-test" {
   uses = "./"
-  runs = "npm ci; npm test"
+  runs = "npm install; npm test"
 }
