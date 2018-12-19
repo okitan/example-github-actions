@@ -19,7 +19,7 @@ exports.config = {
         name: "chrome" // capabilitiy name (mainly use for screenshot)
       },
       "goog:chromeOptions": {
-        args: ["-disable-dev-shm-usage"]
+        args: ["--disable-dev-shm-usage"]
       }
     }
     // {
