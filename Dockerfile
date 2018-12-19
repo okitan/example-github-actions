@@ -21,4 +21,6 @@ RUN \
 
 USER circleci
 
+ENV LANG ja_JP.utf8
+
 CMD [ "npm", "test" ]
