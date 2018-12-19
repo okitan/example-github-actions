@@ -6,6 +6,4 @@ whoami
 
 cd /app
 
-echo $HOME
-
-npm test
+HOME=/app npm test
